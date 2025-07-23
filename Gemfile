@@ -1,12 +1,9 @@
 # frozen_string_literal: true
 
-gem "jekyll", "~> 4.3"
-gem "webrick", "~> 1.7"  # 로컬 테스트용
+source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 6.0",
+gem "jekyll", "~> 4.3"              # ✅ 필수
+gem "webrick", "~> 1.7"             # ✅ Jekyll 서버용 (Ruby 3 이상 필요)
+
+gem "jekyll-theme-chirpy", "~> 6.0", 
     git: "https://github.com/cotes2020/jekyll-theme-chirpy.git"
-
-# Optional (빌드 검사용)
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
-end
