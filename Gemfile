@@ -12,3 +12,7 @@ gem "jekyll-theme-chirpy", git: "https://github.com/cotes2020/jekyll-theme-chirp
 gem "jekyll-include-cache"
 gem "jekyll-feed"
 gem "jekyll-seo-tag"
+
+group :test do
+  gem "html-proofer", "~> 3.19"
+end
