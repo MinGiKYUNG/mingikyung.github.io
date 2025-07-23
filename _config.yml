@@ -5,6 +5,8 @@ url: "https://mingikyung.github.io"
 baseurl: "" # 꼭 빈 문자열로!
 
 remote_theme: cotes2020/jekyll-theme-chirpy
+plugins:
+  - jekyll-include-cache
 
 # Site language
 lang: ko
