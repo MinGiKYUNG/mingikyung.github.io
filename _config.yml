@@ -1,31 +1,65 @@
 title: "MinGi's Blog"
-tagline: "기술, 개발, 그리고 기록"
-description: "나만의 개발 블로그입니다."
-url: "https://mingikyung.github.io"
-baseurl: "" # 꼭 빈 문자열로!
+tagline: "기록하고 공유하는 개발 이야기"
+description: "개발, 인공지능, 시스템, 그리고 일상"
+url: "https://mingikyung.github.io" # ← 반드시 실제 GitHub Pages 주소
+baseurl: ""                         # ← 반드시 빈 문자열
+
+lang: ko
+timezone: Asia/Seoul
 
 remote_theme: cotes2020/jekyll-theme-chirpy
+
 plugins:
-  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache  # ← Chirpy 필수 플러그인
 
-# Site language
-lang: ko
+markdown: kramdown
+highlighter: rouge
 
-# Social Links (옵션)
-github:
-  username: mingikyung
-twitter:
-  username: your_twitter_id
-email: MinGi.KYUNG@gmail.com
+theme_mode: light  # 또는 dark / auto
 
-# Comments (옵션 - Disqus 예시)
+paginate: 10
+paginate_path: /page:num
+
+# Disqus (댓글 기능)
 comments:
   provider: disqus
   disqus:
-    shortname: your-disqus-shortname
+    shortname: your-disqus-shortname  # 설정 안하면 비워도 됨
 
-# Analytics (옵션)
+# Analytics (Google GA4 예시)
 analytics:
   provider: google-gtag
   google:
-    tracking_id: G-XXXXXXXXXX
+    tracking_id: G-XXXXXXXXXX  # GA4 ID
+
+# Social links (원하는 항목만 남기기)
+social:
+  name: "MinGi KYUNG"
+  email: "MinGi.KYUNG@gmail.com"
+  links:
+    - https://github.com/mingikyung
+    - https://linkedin.com/in/your-profile
+
+# Author info (선택)
+author:
+  name: "MinGi KYUNG"
+  bio: "임베디드 소프트웨어 엔지니어 | AI 윤리 연구자"
+  avatar: /assets/img/avatar.png  # 이미지 경로 수정 가능
+
+# Footer
+footer:
+  since: 2024
+  license: CC BY-NC 4.0
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: en
+
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+timezone: Asia/Seoul
+
+# Optional: 고유 favicon 등 추가 가능
+favicon: /assets/img/favicon.ico
