@@ -1,0 +1,799 @@
+<html>
+	<head>
+		<meta content="text/html; charset=UTF-8"
+		      http-equiv="content-type">
+			<style type="text/css">@import url(https://themes.googleusercontent.com/fonts/css?kit=RFda8w1V0eDZheqfcyQ4EGb3DKsRMD34dqg1gT8Z-p6isjtAVhoKeKPV_uAAgBOSk3k702ZOKiLJc3WVjuplzPesZW2xOQ-xsNqO47m55DA);.lst-kix_d52h1clnbs3c-5>li:before{content:"\0025a0   "}.lst-kix_d52h1clnbs3c-3>li:before{content:"\0025cf   "}.lst-kix_d52h1clnbs3c-2>li:before{content:"\0025a0   "}.lst-kix_d52h1clnbs3c-6>li:before{content:"\0025cf   "}.lst-kix_d52h1clnbs3c-1>li:before{content:"\0025cb   "}.lst-kix_d52h1clnbs3c-7>li:before{content:"\0025cb   "}.lst-kix_d52h1clnbs3c-0>li:before{content:"\00200b   "}.lst-kix_d52h1clnbs3c-8>li:before{content:"\0025a0   "}.lst-kix_3expns8knkd9-0>li:before{content:"\00200b   "}.lst-kix_3expns8knkd9-1>li:before{content:"\0025cb   "}ul.lst-kix_d52h1clnbs3c-5{list-style-type:none}ul.lst-kix_d52h1clnbs3c-6{list-style-type:none}.lst-kix_3expns8knkd9-3>li:before{content:"\0025cf   "}ul.lst-kix_d52h1clnbs3c-7{list-style-type:none}ul.lst-kix_d52h1clnbs3c-8{list-style-type:none}.lst-kix_3expns8knkd9-2>li:before{content:"\0025a0   "}.lst-kix_d52h1clnbs3c-4>li:before{content:"\0025cb   "}.lst-kix_3expns8knkd9-8>li:before{content:"\0025a0   "}.lst-kix_3expns8knkd9-7>li:before{content:"\0025cb   "}ul.lst-kix_d52h1clnbs3c-0{list-style-type:none}ul.lst-kix_d52h1clnbs3c-1{list-style-type:none}ul.lst-kix_d52h1clnbs3c-2{list-style-type:none}ul.lst-kix_d52h1clnbs3c-3{list-style-type:none}ul.lst-kix_d52h1clnbs3c-4{list-style-type:none}.lst-kix_3expns8knkd9-4>li:before{content:"\0025cb   "}.lst-kix_3expns8knkd9-5>li:before{content:"\0025a0   "}.lst-kix_3expns8knkd9-6>li:before{content:"\0025cf   "}ul.lst-kix_3expns8knkd9-2{list-style-type:none}ul.lst-kix_3expns8knkd9-1{list-style-type:none}ul.lst-kix_3expns8knkd9-4{list-style-type:none}ul.lst-kix_3expns8knkd9-3{list-style-type:none}ul.lst-kix_3expns8knkd9-0{list-style-type:none}ul.lst-kix_3expns8knkd9-6{list-style-type:none}ul.lst-kix_3expns8knkd9-5{list-style-type:none}ul.lst-kix_3expns8knkd9-8{list-style-type:none}ul.lst-kix_3expns8knkd9-7{list-style-type:none}ol{margin:0;padding:0}table td,table th{padding:0}.c36{border-right-style:solid;padding:7.2pt 7.2pt 7.2pt 7.2pt;border-bottom-color:#ffffff;border-top-width:0pt;border-right-width:0pt;border-left-color:#ffffff;vertical-align:top;border-right-color:#ffffff;border-left-width:0pt;border-top-style:solid;border-left-style:solid;border-bottom-width:0pt;width:165pt;border-top-color:#ffffff;border-bottom-style:solid}.c40{border-right-style:solid;padding:7.2pt 7.2pt 7.2pt 7.2pt;border-bottom-color:#ffffff;border-top-width:0pt;border-right-width:0pt;border-left-color:#ffffff;vertical-align:top;border-right-color:#ffffff;border-left-width:0pt;border-top-style:solid;border-left-style:solid;border-bottom-width:0pt;width:358.5pt;border-top-color:#ffffff;border-bottom-style:solid}.c31{padding-top:10pt;padding-bottom:10pt;line-height:1.0;page-break-after:avoid;orphans:2;widows:2;text-align:left;margin-right:15pt}.c11{color:#666666;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:10pt;font-family:"Trebuchet MS";font-style:normal}.c10{color:#000000;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:"Trebuchet MS";font-style:normal}.c20{color:#2079c7;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:12pt;font-family:"Open Sans";font-style:normal}.c17{color:#666666;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Merriweather";font-style:normal}.c5{color:#2079c7;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:14pt;font-family:"Open Sans";font-style:normal}.c3{color:#666666;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:9pt;font-family:"Trebuchet MS";font-style:normal}.c24{color:#525252;font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c0{padding-top:0pt;padding-bottom:10pt;line-height:1.0;page-break-after:avoid;text-align:left;margin-right:15pt}.c23{font-weight:700;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Merriweather";font-style:normal}.c27{text-decoration-skip-ink:none;font-family:"Trebuchet MS";-webkit-text-decoration-skip:none;color:#1155cc;font-weight:400;text-decoration:underline}.c8{padding-top:0pt;padding-bottom:5pt;line-height:1.0;page-break-after:avoid;text-align:left;margin-right:15pt}.c6{padding-top:10pt;padding-bottom:0pt;line-height:1.0;page-break-after:avoid;text-align:left;margin-right:15pt}.c4{padding-top:16pt;padding-bottom:0pt;line-height:1.0;page-break-after:avoid;text-align:left;margin-right:15pt}.c7{padding-top:0pt;padding-bottom:0pt;line-height:1.0;text-align:left;margin-right:15pt}.c29{padding-top:0pt;padding-bottom:6pt;line-height:1.0;text-align:left;margin-right:15pt}.c28{padding-top:10pt;padding-bottom:0pt;line-height:1.0;text-align:left;margin-right:15pt}.c41{padding-top:6pt;padding-bottom:0pt;line-height:1.0;text-align:left;margin-right:15pt}.c9{padding-top:10pt;padding-bottom:0pt;line-height:1.15;text-align:justify;margin-right:15pt}.c25{padding-top:6pt;padding-bottom:0pt;line-height:1.15;text-align:left;margin-right:15pt}.c15{padding-top:6pt;padding-bottom:0pt;line-height:1.3;text-align:left;margin-right:15pt}.c46{padding-top:6pt;padding-bottom:0pt;line-height:1.15;text-align:justify;margin-right:15pt}.c21{padding-top:30pt;padding-bottom:0pt;line-height:1.0;text-align:left;margin-right:15pt}.c53{padding-top:16pt;padding-bottom:10pt;line-height:1.0;text-align:left;margin-right:15pt}.c19{padding-top:0pt;padding-bottom:0pt;line-height:1.15;text-align:left;margin-right:15pt}.c2{background-color:#ffffff;font-size:10.5pt;font-family:"Arial";color:#474747;font-weight:400}.c57{border-spacing:0;border-collapse:collapse;margin-right:auto}.c38{text-decoration-skip-ink:none;-webkit-text-decoration-skip:none;color:#1155cc;text-decoration:underline}.c52{color:#b7b7b7;font-weight:700;font-family:"Open Sans";font-style:normal}.c26{text-decoration:none;vertical-align:baseline;font-size:9pt;font-style:normal}.c42{font-weight:700;font-size:36pt;font-family:"Merriweather";font-style:normal}.c37{font-weight:400;font-size:6pt;font-family:"Merriweather";font-style:normal}.c12{font-size:10pt;font-weight:400;font-family:"Trebuchet MS"}.c44{color:#2079c7;font-weight:700;font-family:"Open Sans"}.c43{margin-left:0pt;list-style-position:inside;text-indent:45pt}.c48{font-weight:400;font-family:"Merriweather";font-style:normal}.c55{background-color:#ffffff;max-width:509.1pt;padding:28.9pt 43.1pt 43.1pt 43.1pt}.c1{font-size:12pt;font-weight:400;font-family:"Trebuchet MS"}.c13{color:#000000;font-weight:700;font-family:"Open Sans"}.c51{padding:0;margin:0}.c56{font-size:11pt;font-style:normal}.c58{font-weight:400;font-family:"Trebuchet MS"}.c34{font-weight:400;font-family:"Open Sans"}.c16{color:inherit;text-decoration:inherit}.c50{font-size:12pt;font-style:normal}.c30{text-decoration:none;vertical-align:baseline}.c54{font-size:8pt;font-style:normal}.c18{height:9pt}.c32{font-size:10pt}.c49{height:11pt}.c35{color:#666666}.c39{font-size:14pt}.c33{page-break-after:avoid}.c45{height:588pt}.c14{color:#000000}.c22{font-style:italic}.c47{height:71.2pt}.title{padding-top:0pt;color:#000000;font-weight:700;font-size:36pt;padding-bottom:6pt;font-family:"Merriweather";line-height:1.0;text-align:left}.subtitle{padding-top:0pt;color:#000000;font-size:9pt;padding-bottom:0pt;font-family:"Open Sans";line-height:1.15;text-align:left}li{color:#666666;font-size:9pt;font-family:"Merriweather"}p{margin:0;color:#666666;font-size:9pt;font-family:"Merriweather"}h1{padding-top:30pt;color:#2079c7;font-weight:700;font-size:9pt;padding-bottom:0pt;font-family:"Open Sans";line-height:1.0;text-align:left}h2{padding-top:16pt;color:#000000;font-weight:700;font-size:11pt;padding-bottom:0pt;font-family:"Merriweather";line-height:1.0;page-break-after:avoid;text-align:left}h3{padding-top:5pt;color:#666666;font-size:8pt;padding-bottom:5pt;font-family:"Open Sans";line-height:1.0;page-break-after:avoid;text-align:left}h4{padding-top:8pt;-webkit-text-decoration-skip:none;color:#666666;text-decoration:underline;text-decoration-skip-ink:none;font-size:11pt;padding-bottom:0pt;font-family:"Trebuchet MS";line-height:1.3;page-break-after:avoid;text-align:left}h5{padding-top:8pt;color:#666666;font-size:11pt;padding-bottom:0pt;font-family:"Trebuchet MS";line-height:1.3;page-break-after:avoid;text-align:left}h6{padding-top:8pt;color:#666666;font-size:11pt;padding-bottom:0pt;font-family:"Trebuchet MS";line-height:1.3;page-break-after:avoid;font-style:italic;text-align:left}</style>
+		</head>
+		<body class="c55 doc-content">
+			<p class="c18 c41">
+				<span class="c30 c35 c37"/>
+			</p>
+			<table class="c57">
+				<tr class="c47">
+					<td class="c40"
+					    colspan="1"
+					    rowspan="1">
+						<p class="c29 title"
+						   id="h.x8fm1uorkbaw">
+							<span class="c30 c14 c42">MinGi KYUNG</span>
+						</p>
+						<p class="c19 subtitle"
+						   id="h.ymi089liagec">
+							<span class="c34 c30 c14 c56">Embedded Software Developer</span>
+						</p>
+					</td>
+					<td class="c36"
+					    colspan="1"
+					    rowspan="2">
+						<p class="c19 c18">
+							<span class="c13 c30 c54"/>
+						</p>
+						<h1 class="c7 c18"
+						    id="h.3nolo09dibya">
+							<span class="c5"/>
+						</h1>
+						<p class="c7 c18">
+							<span class="c17"/>
+						</p>
+						<p class="c7 c18">
+							<span class="c17"/>
+						</p>
+						<h1 class="c21"
+						    id="h.g8v5bbpidf4x">
+							<span class="c5">Details</span>
+						</h1>
+						<p class="c19 c18">
+							<span class="c26 c34 c14"/>
+						</p>
+						<p class="c19">
+							<span class="c13">Address</span>
+						</p>
+						<p class="c19">
+							<span class="c26 c34 c14">3-10, Geumhwa-ro 12beon-gil, Giheung-gu, Yongin-si, Gyeonggi-do</span>
+						</p>
+						<p class="c19">
+							<span class="c26 c34 c14">Republic of Korea, 17074</span>
+						</p>
+						<p class="c19 c18">
+							<span class="c26 c13"/>
+						</p>
+						<p class="c19">
+							<span class="c26 c13">Contact</span>
+						</p>
+						<p class="c19">
+							<span class="c26 c34 c14">(+82) 10-9999-4096</span>
+						</p>
+						<p class="c19">
+							<span class="c34 c38">
+								<a class="c16"
+								   href="mailto:MinGi.KYUNG@gmail.com">MinGi.KYUNG@gmail.com</a>
+							</span>
+						</p>
+						<p class="c19 c18">
+							<span class="c26 c13"/>
+						</p>
+						<p class="c19">
+							<span class="c26 c13">Date of Birth</span>
+						</p>
+						<p class="c19">
+							<span class="c26 c14 c34">Aug 10, 1982</span>
+						</p>
+						<p class="c19 c18">
+							<span class="c26 c13"/>
+						</p>
+						<p class="c19">
+							<span class="c13 c26">Nationality</span>
+						</p>
+						<p class="c19">
+							<span class="c34 c14">Republic of Korea</span>
+						</p>
+						<h1 class="c21"
+						    id="h.ca0awj8022e2">
+							<span class="c5">Links</span>
+						</h1>
+						<ul class="c51 lst-kix_d52h1clnbs3c-0 start">
+							<li class="c28 c43">
+								<span class="c27">
+									<a class="c16"
+									   href="https://www.google.com/url?q=https://www.linkedin.com/in/%25EB%25AF%25BC%25EA%25B8%25B0-%25EA%25B2%25BD-6477b840/&amp;sa=D&amp;source=editors&amp;ust=1754505308664257&amp;usg=AOvVaw1R6jlWAwr6F14Kw_p70a6H">LinkedIn</a>
+								</span>
+							</li>
+							<li class="c7 c43">
+								<span class="c27">
+									<a class="c16"
+									   href="https://www.google.com/url?q=https://github.com/MinGiKYUNG/&amp;sa=D&amp;source=editors&amp;ust=1754505308664623&amp;usg=AOvVaw1SW0pcth9ig3TXyEVHoUEh">GitHub</a>
+								</span>
+							</li>
+						</ul>
+						<h1 class="c21"
+						    id="h.tuxh7mwdaxox">
+							<span class="c39">Skills</span>
+						</h1>
+						<p class="c19 c18">
+							<span class="c17"/>
+						</p>
+						<p class="c19">
+							<span class="c13">Language</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;C / C++</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;Embedded C</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;Java</span>
+						</p>
+						<p class="c19 c18">
+							<span class="c3"/>
+						</p>
+						<p class="c19">
+							<span class="c13">Tool </span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;Eclipse Plug-in</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;Spring Framework</span>
+						</p>
+						<p class="c19 c18">
+							<span class="c3"/>
+						</p>
+						<p class="c19">
+							<span class="c13">Device Platform</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;Embedded Linux Drive / Kernel</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;Arm mbed</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;ESP32 &amp; Arduino</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;CUDA</span>
+						</p>
+						<p class="c19 c18">
+							<span class="c3"/>
+						</p>
+						<p class="c19">
+							<span class="c13">Standard</span>
+						</p>
+						<p class="c7">
+							<span class="c3">&nbsp;AUTOSAR</span>
+						</p>
+						<p class="c7">
+							<span class="c58">&nbsp;ISO26262</span>
+						</p>
+						<h1 class="c21"
+						    id="h.cxxkes25b26">
+							<span class="c5">Languages</span>
+						</h1>
+						<p class="c28">
+							<span class="c3">Korean </span>
+						</p>
+						<p class="c7">
+							<span class="c3">English </span>
+						</p>
+					</td>
+				</tr>
+				<tr class="c45">
+					<td class="c40"
+					    colspan="1"
+					    rowspan="1">
+						<h1 class="c7"
+						    id="h.4eqehqgo5ipr">
+							<span class="c5">Professional Summary</span>
+						</h1>
+						<p class="c9">
+							<span class="c11">I am an embedded software developer with multiple project experiences. During my graduate studies, I researched AUTOSAR-related automotive component testing, drone sensor drift, and traffic simulation acceleration using CUDA. </span>
+						</p>
+						<p class="c9">
+							<span class="c11">In my previous role as a drone developer, I wrote control software that utilized Qualcomm RB5 devices and 5G modules for communication, GPS, IMU, and lidar sensors for SLAM-based localization and mapping, alongside AduPilot-compatible boards for flight. </span>
+						</p>
+						<p class="c9">
+							<span class="c11">Currently, I am working on set-top box (STB) development, focusing on Linux kernel debugging and device driver maintenance for several ARMv8-A-based STBs (KSTB5220, KSTB6150, KSTB4181, KSTB3220). I have also performed Dolby MS12 v1.3.4 and TB44 certification using the KSTB4181. </span>
+						</p>
+						<p class="c9">
+							<span class="c12">With my extensive experience in embedded systems, I am always eager to take on new development challenges.</span>
+						</p>
+						<h1 class="c21"
+						    id="h.yk8luflkpwij">
+							<span class="c39">Education</span>
+						</h1>
+						<h2 class="c4"
+						    id="h.6wymnhinx9q5">
+							<span class="c1">Konkuk University, </span>
+							<span class="c1">Seoul &mdash; </span>
+							<span class="c1 c30 c14 c22">Ph.D</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.7vtcyzeczjot">
+							<span class="c11">Mar 2010 - Feb 2019</span>
+						</h3>
+						<p class="c25">
+							<span class="c12">Time prediction of GPU-based parallel LCTM traffic simulation &nbsp;</span>
+							<span class="c27 c32">
+								<a class="c16"
+								   href="https://www.google.com/url?q=http://www.riss.kr/link?id%3DT15067491&amp;sa=D&amp;source=editors&amp;ust=1754505308671001&amp;usg=AOvVaw1P_afnwKlKsocIrhnfMHc7">http://www.riss.kr/link?id=T15067491</a>
+							</span>
+						</p>
+						<p class="c25">
+							<span class="c11">I proposed a simulation time prediction method for traffic simulation in a specific region where new traffic demand is expected in order to enhance the performance of the traffic simulation and to obtain the reduction of execution time in the simulation.</span>
+						</p>
+						<h2 class="c4"
+						    id="h.uogyuv8jopu8">
+							<span class="c1">Konkuk University, </span>
+							<span class="c1">Seoul &mdash; </span>
+							<span class="c1 c30 c14 c22">Master</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.a9kc7i41lxf3">
+							<span class="c11">Mar 2008 - Feb 2010</span>
+						</h3>
+						<p class="c25">
+							<span class="c12">Conformance Testing Framework for Automotive Software </span>
+							<span class="c27 c32">
+								<a class="c16"
+								   href="https://www.google.com/url?q=http://www.riss.kr/link?id%3DT11907460&amp;sa=D&amp;source=editors&amp;ust=1754505308672393&amp;usg=AOvVaw2-NlNP1RUPRn7dFyUJ7X0t">http://www.riss.kr/link?id=T11907460 </a>
+							</span>
+						</p>
+						<p class="c25">
+							<span class="c11">I performed two conformance test experiments for checking the version and write function of AUTOSAR BSW. A test case calls and receives AUTOSAR BSW functions on automotive EEPROM simulation module.</span>
+						</p>
+						<h2 class="c4"
+						    id="h.2y19sc6hy339">
+							<span class="c1">Konkuk University, </span>
+							<span class="c1">Seoul &mdash; </span>
+							<span class="c1 c30 c14 c22">Bachelor</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.hruinuwl7f4f">
+							<span class="c12">Mar 2001 - Feb 2008</span>
+						</h3>
+						<h1 class="c21 c18"
+						    id="h.v43ek7we1gfh">
+							<span class="c20"/>
+						</h1>
+						<h1 class="c21"
+						    id="h.y7d3xdxnr44m">
+							<span class="c20">Employment History</span>
+						</h1>
+						<h2 class="c4"
+						    id="h.qcjohx5nprla">
+							<span class="c1">Kaon Group, &nbsp;</span>
+							<span class="c1">Seongnam-si &mdash; </span>
+							<span class="c1 c30 c14 c22">Manager</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.gyogaqzdv8u">
+							<span class="c12">Nov</span>
+							<span class="c11">&nbsp;2023 - Present</span>
+						</h3>
+						<p class="c46">
+							<span class="c11">Performed Linux kernel debugging and device driver maintenance work on several ARMv8-A based STBs (KSTB5220, KSTB6150, KSTB4181). Also performed Dolby MS12 v1.3.4 and TB44 certification work using KSTB4181.</span>
+						</p>
+						<h2 class="c4"
+						    id="h.rfgvkg2ifhfd">
+							<span class="c1">Argosdyne, </span>
+							<span class="c1 c14">&nbsp;</span>
+							<span class="c1">Yongin-si &mdash; </span>
+							<span class="c1 c30 c14 c22">Senior Researcher</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.n64fgzu3lwuy">
+							<span class="c12">Jan 2023 - Oct 2023</span>
+						</h3>
+						<p class="c46">
+							<span class="c12">I have been working at Argosdyne on drone control software that uses Qualcomm RB5 devices and Thunderbolt 5G modules to communicate, GPS, IMU, and lidar sensors to perform SLAM-based localization and mapping, and AduPilot compatible boards to fly, and additionally debugging sensor data integration on stm32h743-based boards, a type of ARM mbed.</span>
+						</p>
+						<h2 class="c4"
+						    id="h.j41c1ke157o7">
+							<span class="c1">Wiseinfotech, &nbsp;</span>
+							<span class="c1">Seoul&mdash; </span>
+							<span class="c1 c30 c14 c22">Senior Researcher</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.8qcozqnylghd">
+							<span class="c12">Jul 2021 - Oct 2022</span>
+						</h3>
+						<p class="c46">
+							<span class="c12">I developed &lsquo;Development of GIS system based on Spring framework for management of Daegu Metropolitan City&#39;s own optical cable network&rsquo; project.</span>
+						</p>
+						<h2 class="c4"
+						    id="h.o7vqvwoqpmea">
+							<span class="c1">Konkuk University, &nbsp;</span>
+							<span class="c1">Seoul &mdash; </span>
+							<span class="c1 c30 c14 c22">Postdoctoral Researcher</span>
+						</h2>
+						<h3 class="c8"
+						    id="h.873ljmbx3rk9">
+							<span class="c12">Mar 2019 &ndash; Dec 2019</span>
+						</h3>
+						<p class="c46">
+							<span class="c11">I developed &#39;Development of a Traffic Predictive Simulation SW for Improving the Urban Traffic Congestion&#39; Project. </span>
+						</p>
+						<p class="c46">
+							<span class="c12">(No. 2017-0-00121 in Institute for Information &amp; communication Technology Promotion (IITP) grant funded by the Korea government (MSIP))</span>
+						</p>
+						<h1 class="c21"
+						    id="h.5fem2myh50sh">
+							<span class="c5">Patent</span>
+						</h1>
+						<h2 class="c6"
+						    id="h.jhv78pp9wtzd">
+							<span class="c1 c14">Method for setting flight path and flying object<br/>
+								<span class="c11">2012 (Registered), 2017 (Expired) </span>
+							</h2>
+							<h1 class="c7"
+							    id="h.kmbrzsmzn9zk">
+								<span class="c27 c32">
+									<a class="c16"
+									   href="https://www.google.com/url?q=https://doi.org/10.8080/1020090117795&amp;sa=D&amp;source=editors&amp;ust=1754505308677833&amp;usg=AOvVaw3bXbG42KyVCW3Fhzxc20eX">https://doi.org/10.8080/1020090117795</a>
+								</span>
+							</h1>
+							<h1 class="c21 c18"
+							    id="h.u7m9dmhjwlfe">
+								<span class="c5"/>
+							</h1>
+							<h1 class="c21 c18"
+							    id="h.fl9vg2swt7cg">
+								<span class="c5"/>
+							</h1>
+							<h1 class="c21 c18"
+							    id="h.47miajaeu5hn">
+								<span class="c5"/>
+							</h1>
+							<h1 class="c21"
+							    id="h.1q0petbt7rcz">
+								<span class="c5">Teaching Record</span>
+							</h1>
+							<h2 class="c4"
+							    id="h.c574a8259lpj">
+								<span class="c1">Video Editing Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.kcunsx67xxnk">
+								<span class="c11">Nov. 2020 - Present</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.93kwpau29sne">
+								<span class="c11">I taught middle &amp; high school students &nbsp;how to edit videos using Davinci Resolve at Saegam-maeul, orphanage.</span>
+							</h2>
+							<h2 class="c0 c49"
+							    id="h.iu82797au6ia">
+								<span class="c11"/>
+							</h2>
+							<h2 class="c4"
+							    id="h.iciakl31zih2">
+								<span class="c1">Software Development Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.bkir7gj3226j">
+								<span class="c11">Aug. 2016 - Dec. 2016</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.7v7z1bkk4zmq">
+								<span class="c11">I taught university students how to make arduino/process program at Konkuk University.</span>
+							</h2>
+							<h2 class="c0 c49"
+							    id="h.prxghj9o0k46">
+								<span class="c11"/>
+							</h2>
+							<h2 class="c4"
+							    id="h.jfyhj4hwwnjl">
+								<span class="c1">Objective Programming Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.52i09cuhe4uo">
+								<span class="c11">Aug. 2015 - Dec. 2015</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.ylff27ublyfe">
+								<span class="c12 c35">I taught university students at </span>
+								<span class="c2">Kookmin</span>
+								<span class="c11">&nbsp;University.</span>
+							</h2>
+							<p class="c7 c18">
+								<span class="c17"/>
+							</p>
+							<h2 class="c4"
+							    id="h.js9wt5gaguz9">
+								<span class="c1">Data Communication Class (day &amp; night class) </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.g5oqra13w9p7">
+								<span class="c11">Aug. 2013 - Dec. 2013</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.ong56jhha21k">
+								<span class="c11">I taught university students at Hansung University.</span>
+							</h2>
+							<h2 class="c0 c49"
+							    id="h.hak422c4stv2">
+								<span class="c11"/>
+							</h2>
+							<h2 class="c4"
+							    id="h.xzx4x3e9kdyz">
+								<span class="c1">Information Computer Education Textbook Research and Teaching Methods &nbsp;Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.2g0dq3fecju0">
+								<span class="c11">Aug. 2013 - Dec. 2013</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.9445afwjiy0s">
+								<span class="c12 c35">I taught university students at </span>
+								<span class="c2">Nazareth</span>
+								<span class="c11">&nbsp;University.</span>
+							</h2>
+							<p class="c7 c18">
+								<span class="c17"/>
+							</p>
+							<h2 class="c4"
+							    id="h.3xk9g7rjg324">
+								<span class="c1">SW development project Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.hcuijia66hru">
+								<span class="c11">Aug. 2013 - Dec. 2013</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.cn5pcmbaasw9">
+								<span class="c12 c35">I taught university students at </span>
+								<span class="c2">Nazareth</span>
+								<span class="c11">&nbsp;University.</span>
+							</h2>
+							<p class="c7 c18">
+								<span class="c17"/>
+							</p>
+							<h2 class="c4"
+							    id="h.1w6ib9su5uez">
+								<span class="c1">Operating system Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.v13yzontie5r">
+								<span class="c11">Aug. 2013 - Dec. 2013</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.kz01squegar7">
+								<span class="c12 c35">I taught university students at </span>
+								<span class="c2">Nazareth</span>
+								<span class="c11">&nbsp;University.</span>
+							</h2>
+							<p class="c7 c18">
+								<span class="c17"/>
+							</p>
+							<h2 class="c4"
+							    id="h.f9btdkd1ucjy">
+								<span class="c1">SW development project Class </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Instructor</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.z9far8zdwlm1">
+								<span class="c11">Mar. 2008 - Dec. 2012</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.4mieoplg5apg">
+								<span class="c12 c35">I taught university students at </span>
+								<span class="c2">Konkuk</span>
+								<span class="c12 c35">&nbsp;University.</span>
+							</h2>
+							<h1 class="c21"
+							    id="h.bpe7u6fm56ol">
+								<span class="c5">Projects</span>
+							</h1>
+							<h2 class="c4"
+							    id="h.wg3xc3scj68s">
+								<span class="c1">Development of KSTB3220 </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Manager</span>
+							</h2>
+							<h3 class="c0"
+							    id="h.z5lm3u7gf6cn">
+								<span class="c11">Nov 2023 - Present</span>
+							</h3>
+							<h2 class="c0"
+							    id="h.hu5jgqxvk9lt">
+								<span class="c11">I have performed yocto-based development work on KSTB3220 set-top box based on RDK, and performed TDK testing work in collaboration with Broadcom and Irdeto.</span>
+							</h2>
+							<p class="c7 c18">
+								<span class="c17"/>
+							</p>
+							<h2 class="c0"
+							    id="h.to14zgmxvouh">
+								<span class="c1">Development of KSTB6150 </span>
+								<span class="c1">&mdash; </span>
+								<span class="c1 c22">Manager<br/>
+									<span class="c11">Nov 2023 - Present</span>
+								</h2>
+								<h2 class="c7 c33"
+								    id="h.6p1c9l97g196">
+									<span class="c11">I performed FOSH testing, an EPG certification program from Synamedia, and wrote a Linux kernel driver for front LED operation.</span>
+								</h2>
+								<p class="c7 c18">
+									<span class="c17"/>
+								</p>
+								<h2 class="c31"
+								    id="h.soohi25amsud">
+									<span class="c1">Development of KSTB4181 </span>
+									<span class="c1">&mdash; </span>
+									<span class="c1 c22">Manager<br/>
+										<span class="c11">Nov 2023 - Present</span>
+									</h2>
+									<h2 class="c7 c33"
+									    id="h.odfyw6wvdnqk">
+										<span class="c11">I have completed certification for KSTB4181 set-top box based on Dolby MS12 v1.3.4 and TB-44. I have also modified hibernation function of KSTB4181 set-top box using Broadcom AP to meet EU power consumption standard.</span>
+									</h2>
+									<p class="c7 c18">
+										<span class="c17"/>
+									</p>
+									<h2 class="c33 c53"
+									    id="h.jnrlikr8a4ut">
+										<span class="c1">Development of KSTB5220 </span>
+										<span class="c1">&mdash; </span>
+										<span class="c1 c22">Manager<br/>
+											<span class="c11">Nov 2023 - Present</span>
+										</h2>
+										<h2 class="c7 c33"
+										    id="h.2gqnv4p2z6rr">
+											<span class="c11">I was responsible for maintaining the KSTB5220 set-top box operated by Astro and correcting errors in field operation.</span>
+										</h2>
+										<p class="c7 c18">
+											<span class="c17"/>
+										</p>
+										<h2 class="c6"
+										    id="h.cwqva8dlprlb">
+											<span class="c1">Implementation of drone video transmission system using Thundercomm 5G module </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c22">Senior Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.wuh1x67qy9vo">
+											<span class="c11">Jan 2023 - Oct. 2023</span>
+										</h2>
+										<h2 class="c7 c33"
+										    id="h.oplk2d4tswtj">
+											<span class="c11">I developed a video streaming system using a board developed by Argosdyne that utilizes the Thundercomm 5G module.</span>
+										</h2>
+										<p class="c7 c18">
+											<span class="c17"/>
+										</p>
+										<h2 class="c6"
+										    id="h.3gtnun8wvvia">
+											<span class="c1">Building a drone control system based on ROS2 </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c22">Senior Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.gc3jbmdd0qb">
+											<span class="c11">Jan 2023 - Nov. 2023</span>
+										</h2>
+										<h2 class="c7 c33"
+										    id="h.jt3vkg3twzz9">
+											<span class="c11">I developed a ROS2-based drone control system that controls a Pixhawk flight module using RB5, Qualcomm embedded board.</span>
+										</h2>
+										<p class="c7 c18">
+											<span class="c17"/>
+										</p>
+										<h2 class="c6"
+										    id="h.tiqjulfnp8ge">
+											<span class="c1">Building a drone gimbal and camera control driver using STM32 </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c22">Senior Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.65h4qc7jywgp">
+											<span class="c11">Jan 2023 - Nov. 2023</span>
+										</h2>
+										<h2 class="c7 c33"
+										    id="h.2pptpxalcel8">
+											<span class="c11">I developed drone camera, gimbal driver of STM32-based drone control system. I maintained the STM32-based drone control system under development at Argosdyne.</span>
+										</h2>
+										<p class="c7 c18">
+											<span class="c17"/>
+										</p>
+										<h2 class="c6"
+										    id="h.da85bnr3pi35">
+											<span class="c1">Establishment of Daegu Metropolitan City public private network management system </span>
+											<span class="c1">&mdash; Senior Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.j9w8xc8soux5">
+											<span class="c11">2021 - 2022</span>
+										</h2>
+										<h2 class="c7 c33"
+										    id="h.400a8dyy57et">
+											<span class="c11">I built a GIS environment using leaflet.js and built an optical cable and port network management system.</span>
+										</h2>
+										<p class="c7 c18">
+											<span class="c17"/>
+										</p>
+										<h2 class="c4"
+										    id="h.vm051rmyhoww">
+											<span class="c1">Development of a Traffic Predictive Simulation SW for Improving the Urban Traffic Congestion </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c30 c14 c22">Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.6s061g9whbhd">
+											<span class="c12 c35">2017 - 2019</span>
+										</h2>
+										<p class="c15">
+											<span class="c12">I developed a traffic simulation program based on CUDA </span>
+											<span class="c27 c32">
+												<a class="c16"
+												   href="https://www.google.com/url?q=https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn%3DTRKO201900003968&amp;sa=D&amp;source=editors&amp;ust=1754505308690543&amp;usg=AOvVaw1qxd36ObdV7WmnTkY8WiNE">https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201900003968</a>
+											</span>
+										</p>
+										<h2 class="c4"
+										    id="h.24s43p9x9kuk">
+											<span class="c1">Research on the SLAM for UAV Navigation using Gaussian Processes </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c30 c14 c22">Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.23tfs49no1w7">
+											<span class="c12 c35">2014 - 2016</span>
+										</h2>
+										<p class="c15">
+											<span class="c12">I developed a Visual based SLAM and PTAM algorithm. </span>
+											<span class="c27">
+												<a class="c16"
+												   href="https://www.google.com/url?q=https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn%3DTRKO201700014507&amp;sa=D&amp;source=editors&amp;ust=1754505308691536&amp;usg=AOvVaw2qBlv_jRlLO0fbRerFDH4d">https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201700014507</a>
+											</span>
+										</p>
+										<h2 class="c4"
+										    id="h.tcomqe814ffj">
+											<span class="c1">HLA-DDS Integration Middleware for Cyber Physical Systems </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c14 c22 c30">Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.osk6v84juwba">
+											<span class="c12 c35">2011 - 2013</span>
+										</h2>
+										<p class="c15">
+											<span class="c12">I developed a DDS (Data Distribution System) and HLA (High-Level Architecture) middleware module. </span>
+											<span class="c27">
+												<a class="c16"
+												   href="https://www.google.com/url?q=https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn%3DTRKO201400006643&amp;sa=D&amp;source=editors&amp;ust=1754505308692489&amp;usg=AOvVaw1iZwKfXSa0SrRBnmvX5bf-">https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201400006643</a>
+											</span>
+										</p>
+										<h2 class="c4"
+										    id="h.s4i9ppng5uke">
+											<span class="c1">Development of Embedded SW Platform for Future Intelligent Vehicle </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c30 c14 c22">Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.28kb78toyjn">
+											<span class="c12 c35">2008 - 2011</span>
+										</h2>
+										<p class="c15">
+											<span class="c12">I developed a traffic simulation system based on AUTOSAR and MISRA-C standards. And developed a testing framework using TTCN-3 and eclipse plug-in. </span>
+											<span class="c27">
+												<a class="c16"
+												   href="https://www.google.com/url?q=https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn%3DTRKO201400001247&amp;sa=D&amp;source=editors&amp;ust=1754505308693540&amp;usg=AOvVaw1sjoK5ll3xxnSLR07H5kdo">https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201400001247</a>
+											</span>
+										</p>
+										<h2 class="c4"
+										    id="h.qlzgi98o2bnp">
+											<span class="c1">Research on Real-time Disaster-Prevention System using Unmanned Aerial Vehicle </span>
+											<span class="c1">&mdash; </span>
+											<span class="c1 c30 c14 c22">Researcher</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.fwxloul2hsw5">
+											<span class="c12 c35">2008 - 2009</span>
+										</h2>
+										<p class="c15">
+											<span class="c12">I developed a HIL(Hardware-In-the-Loop) for UAV platform. And I ported an aerial vehicle control program using QNX. &nbsp;</span>
+											<span class="c27">
+												<a class="c16"
+												   href="https://www.google.com/url?q=https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn%3DTRKO201300015843&amp;sa=D&amp;source=editors&amp;ust=1754505308694533&amp;usg=AOvVaw3jBAD6Q_y4uKxzPdKzjXBe">https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201300015843</a>
+											</span>
+										</p>
+										<h1 class="c21"
+										    id="h.k1ued8nxf6bo">
+											<span class="c5">Academic Papers</span>
+										</h1>
+										<h2 class="c4"
+										    id="h.cnux9u64e0b6">
+											<span class="c1">Time Measurement on GPU-based LCTM Simulation </span>
+										</h2>
+										<h2 class="c0"
+										    id="h.o7rpoprwpz0">
+											<span class="c12 c35">2019, KTSDE </span>
+										</h2>
+										<h2 class="c4"
+										    id="h.b3x5bynhdof">
+											<span class="c1">A Study on Developing Distributed and Parallel Traffic Simulation Program with Open MPI</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.93m343urdeif">
+											<span class="c12 c35">2019, KTSDE </span>
+										</h2>
+										<h2 class="c4"
+										    id="h.e5d9mojyrxr6">
+											<span class="c1">Vision-based Reduction of Gyro Drift for Intelligent Vehicles</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.22uq71ydsx5t">
+											<span class="c12 c35">2016, ICROS </span>
+										</h2>
+										<h2 class="c4"
+										    id="h.whsgossvk5ra">
+											<span class="c1">Development of AUTOSAR Conformance Test Architecture Modeling Tool using Eclipse GMF</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.dkq5yaklp038">
+											<span class="c12 c35">2010, KIISE </span>
+										</h2>
+										<h2 class="c4"
+										    id="h.4zialre5jbec">
+											<span class="c1">Study On Conformance Test For Automotive Basic SoftWare Which Uses EEPROM Abstraction Simulation Module</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.2hy8j239lio2">
+											<span class="c12 c35">2010, KIISE</span>
+										</h2>
+										<h2 class="c4"
+										    id="h.fgkpsj38rlmx">
+											<span class="c1">Study of Embedded Software Test Method on Arduino Board</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.mqma76nwlkqo">
+											<span class="c12 c35">2009, KIPS</span>
+										</h2>
+										<h2 class="c4"
+										    id="h.bgx50kuwznmp">
+											<span class="c1">Study on Academic Information Retrieval System based on Multi Agent System</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.lala7g1ca9sf">
+											<span class="c11">2009, KIPS</span>
+										</h2>
+										<h2 class="c4"
+										    id="h.192p9y7i1rz8">
+											<span class="c1">Automotive software verification using AUTOSAR Conformance Testing Tool</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.w86y3y33ywr2">
+											<span class="c12 c35">2009, KIISE</span>
+										</h2>
+										<h2 class="c4"
+										    id="h.lepndpbk4d0k">
+											<span class="c1">Comparison and Analysis of TTCN-3 GFT and UML mapping</span>
+										</h2>
+										<h2 class="c0"
+										    id="h.xmjr9etlhutl">
+											<span class="c12 c35">2009, KIISE</span>
+										</h2>
+										<p class="c15 c18">
+											<span class="c17"/>
+										</p>
+									</td>
+								</tr>
+							</table>
+							<p class="c15 c18">
+								<span class="c17"/>
+							</p>
+						</body>
+					</html>
